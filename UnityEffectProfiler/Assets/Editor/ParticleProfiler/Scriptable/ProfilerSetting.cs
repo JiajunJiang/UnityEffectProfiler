@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace Editor
 {
-    [CreateAssetMenu(menuName="MySubMenue/Create MyScriptableObject ")]
     public class ProfilerSetting : ScriptableObject
     {
         /// <summary>
@@ -45,10 +44,12 @@ namespace Editor
         /// 检测Mipmap
         /// </summary>
         public bool checkMipmap = true;
+
         /// <summary>
         /// 检测Read/Write
         /// </summary>
         public bool checkReadWrite = true;
+
         /// <summary>
         /// 检测图片格式
         /// </summary>
@@ -57,7 +58,7 @@ namespace Editor
         public bool checkFormatAndroid = true;
 
         public bool checkFormatIphone = true;
-        
+
         /// <summary>
         /// 允许的最大图片大小
         /// </summary>
@@ -71,7 +72,7 @@ namespace Editor
         /// 检测是否包含Scale曲线
         /// </summary>
         public bool checkScale = true;
-        
+
         /// <summary>
         /// 检测动画精度
         /// </summary>
@@ -85,17 +86,17 @@ namespace Editor
         /// 检测Mesh包含Normal
         /// </summary>
         public bool checkNormal = true;
-        
+
         /// <summary>
         /// 检测Mesh包含Tangent
         /// </summary>
         public bool checkTangent = true;
-        
+
         /// <summary>
         /// 检测Mesh包含Color
         /// </summary>
         public bool checkColor = true;
-        
+
         /// <summary>
         /// 检测Mesh未开启Read/Write
         /// </summary>
