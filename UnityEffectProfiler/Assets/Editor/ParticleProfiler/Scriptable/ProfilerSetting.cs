@@ -6,6 +6,11 @@ namespace Editor
     public class ProfilerSetting : ScriptableObject
     {
         /// <summary>
+        /// 检测路径
+        /// </summary>
+        public string checkPath = "/Art/Effect/";
+        
+        /// <summary>
         /// 检测ParticleSystem是否开启了Collision或者Trigger
         /// </summary>
         public bool checkCollision = true;

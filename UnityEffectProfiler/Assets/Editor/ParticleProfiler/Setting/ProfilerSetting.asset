@@ -12,4 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: ProfilerSetting
   m_EditorClassIdentifier: Assembly-CSharp-Editor:Editor:ProfilerSetting
-  CheckCollision: 1
+  checkPath: \Art\Effect\
+  checkCollision: 1
+  checkDrawCall: 1
+  checkOverDraw: 1
+  checkTotalMemory: 1
+  textureSetting:
+    checkMipmap: 1
+    checkReadWrite: 1
+    checkFormatStandalone: 1
+    checkFormatAndroid: 1
+    checkFormatIphone: 1
+    textureMaxSize: 2048
+  animationSetting:
+    checkScale: 1
+    checkPrecision: 1
+  meshSetting:
+    checkNormal: 1
+    checkTangent: 1
+    checkColor: 1
+    checkReadWrite: 1
